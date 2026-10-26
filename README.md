@@ -1,17 +1,38 @@
-# smart_healthcare_management_system
+# Smart Healthcare Management & Monitoring System (CarePlan)
 
-A new Flutter project.
+A desktop/tablet-first Flutter application for managing healthcare software projects across multi-hospital networks (Appointments, Lab Reports, Doctor Schedules, Online Consultations, Billing).
 
-## Getting Started
+## 🚀 Features & Modules
 
-This project is a starting point for a Flutter application.
+- **CarePlan Dashboard**: Project status overview, progress tracking, Earned Value snapshot, critical defects count, and milestone schedule.
+- **Module 1: Initiation & Integration**: Project charter, baseline management plan, team responsibilities, and participating hospitals network.
+- **Module 2: Scope Management & WBS**: Requirements register, change control workflow, and hierarchical Work Breakdown Structure (WBS).
+- **Module 3: Schedule & Resource Management**: Activity timeline, predecessor dependencies, forward-pass scheduling engine, and automated delay detection.
+- **Module 4: Cost Management & EVM**: EVM metrics (PV, EV, AC, CPI, SPI, Cost Variance), actual expenditure ledger, and performance tracking.
+- **Module 5: Quality Management & Risk Control**: Defect register, deliverable quality checklists, and Risk Matrix with PDPC preventive/contingency responses.
+- **Module 6: System Integration & Reporting**: Consolidated executive summary report and PDF report export.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Framework**: Flutter (Desktop / Windows)
+- **Database**: Drift (SQLite)
+- **State Management**: Flutter Riverpod
+- **Routing**: GoRouter
+- **Charts**: Syncfusion Flutter Charts
+- **PDF Export**: PDF & Printing packages
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Getting Started
+
+1. Ensure Flutter SDK is installed.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/kashif146070-sketch/smart-healthcare-management-system.git
+   ```
+3. Fetch dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the application:
+   ```bash
+   flutter run -d windows
+   ```
